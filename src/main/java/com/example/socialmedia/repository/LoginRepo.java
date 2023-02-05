@@ -12,4 +12,6 @@ public interface LoginRepo extends MongoRepository<Login, String>{
 
 	List<Login> findByEmail(String string);
 
+	List<Login> findByUserid(String userid);
+
 }
